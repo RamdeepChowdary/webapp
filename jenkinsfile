@@ -6,7 +6,7 @@ pipeline {
         stage('scm checkout') {
             steps {
                 git branch: "main",
-                    url: "https://github.com/RamdeepChowdary/website.git"
+                    url: "https://github.com/RamdeepChowdary/CODSOFT-Task-1.git"
             }
         }
 
